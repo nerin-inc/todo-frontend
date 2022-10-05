@@ -1,0 +1,37 @@
+.nav
+    margin: 0 10px 10px
+    padding: 0 10px
+    display: flex
+    justify-content: space-between
+    border-radius: 0 0 15px 15px
+
+    &__container
+        display: flex
+        height: 60px
+        align-items: center
+        &-left
+            width: calc(var(--side-menu-width) - 20px)
+
+    &__item
+        width: 40px
+        height: 40px
+        margin-left: 5px
+        background: rgba(0, 0, 0, 0.05)
+
+    &__burger
+        margin: 0
+
+    &__search
+        display: flex
+        flex: 1
+        &-input
+            flex: 1
+            width: 0
+            background: none
+            border: none
+            color: #fff
+            font-size: 14px
+
+    &__icon
+        width: 40px
+        height: 40px
